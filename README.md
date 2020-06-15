@@ -22,7 +22,7 @@ M300 Services of Yannick Leutwiler
 Die Software VirtualBox habe ich bereits von den vorherigen Modulen gekannt und davon gebauch gemacht, aus diesem Grund musste ich die Software nicht 
 mehr installieren.
 
-![](https://github.com/yck-l/M300-Services/blobblob/master/00-Images/virtualbox.PNG "Virtualbox")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/virtualbox.PNG "Virtualbox")
 
 
 ### 2. Vagrant
