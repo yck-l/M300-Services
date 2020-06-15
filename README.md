@@ -22,25 +22,25 @@ M300 Services of Yannick Leutwiler
 Die Software VirtualBox habe ich bereits von den vorherigen Modulen gekannt und davon gebauch gemacht, aus diesem Grund musste ich die Software nicht 
 mehr installieren.
 
-![](https://github.com/yck-l/M300-Services/blob/master/00-Images/virtualbox.PNG "Virtualbox")
+![](https://github.com/yck-l/M300-Services/blobblob/master/00-Images/virtualbox.PNG "Virtualbox")
 
 
 ### 2. Vagrant
 Vagrant war für mich persönlich etwas neues und ich musste die Software installieren. Es ist sehr spannend mit Vagrant zu arbeiten und mithilfe eines Vagrantfiles die VM zu konfigurieren.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/vagrant.PNG "Vagrant")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/vagrant.PNG "Vagrant")
 
 ### 3. Git-Client
 Der Git-Client hatte ich schon vor diesem Modul gebraucht und musste diesen auch nicht nochmals installieren.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/gitclient.PNG "Git-Client")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/gitclient.PNG "Git-Client")
 
 
 ### 4. SSH-Key
 Um du beweisen, dass mein SSH-Key erstellt wurde und funktioniert, habe ich den Befehl ```ssh -v git@github.com``` ausgeführt. Im Screenshot kann man
 nachvollziehen, dass ich mich erfolgreich via ssh verbinden konnte.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/sshkey.PNG "SSH-Key")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/sshkey.PNG "SSH-Key")
 
 
 ### 5. VisualStudio-Code
@@ -149,7 +149,7 @@ Wir haben die folgenden Services in der Umbgebung der LB02 eingerichtet:
 
 
 ### Netzwerkplan
-![](https://github.com/yck-l/M300-Services//master/00-Images/netzwerkplan.PNG "Netzwerkplan")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/netzwerkplan.PNG "Netzwerkplan")
 
 
 ### 4. Funktionsweise getestet inkl. Dokumentation der Testfälle
@@ -187,7 +187,7 @@ Unten können Sie unsere Testfälle sehen. Wir haben die verschiedenen Services 
 ### 5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
 Ich habe noch andere Virtuelle Maschinen mithilfe von Vagrant auf meinem Notebook aufgesetzt. Das Vagrantfile finden Sie under dem folgenden Link:
 
-![](https://github.com/yck-l/M300-Services//master/01-Vagrantfiles/)
+![](https://github.com/yck-l/M300-Services/blob/master/01-Vagrantfiles/)
 
 ### 6. Projekt mit Git und Mark Down dokumentiert
 Wie vorhin schon angesprochen kann man anhand der Readme.md Datei erkennen, dass ich die Doku mit Markdown verfasst habe.
@@ -204,17 +204,17 @@ Wie vorhin schon angesprochen kann man anhand der Readme.md Datei erkennen, dass
 ### 1. Firewall eingerichtet inkl. Rules
 Auf dem untenstehenden Screenshot, wird der aktuelle UFW-Firewall Status angezeigt. Anhand des Screenshots kann man ebenfalls die Konfiguration nachvollziehen.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/ufwstatus.PNG "UFW-Status")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/ufwstatus.PNG "UFW-Status")
 
 ### 2. Reverse-Proxy eingerichtet
 Im folgenden Screenshot können sie unsere Proxy-Konfiguration begutachten, welche auch im Script zu sehen ist.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/proxyconfig.PNG "Proxy-config")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/proxyconfig.PNG "Proxy-config")
 
 ### 3. Benutzer- und Rechtevergabe ist eingerichtet
 Im Screenshot können sie die erstellten Benutzer, Gruppen und deren Zugehörigkeit sehen.
 
-![](https://github.com/yck-l/M300-Services//master/00-Images/usergroups.PNG "User and Groups")
+![](https://github.com/yck-l/M300-Services/blob/master/00-Images/usergroups.PNG "User and Groups")
 
 ### 4. Sicherheitsmassnahmen sind dokumentiert
 Die Sicherheitsmasnahmen welche wir für unsere Umgebung vorgenommen haben wir einerseit im Vagrantfile anhand von Kommentaren Dokumentiert, andererseit können Sie die Sicherheitsmassnahmen unten nochmnals sehen.
