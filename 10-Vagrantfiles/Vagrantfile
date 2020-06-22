@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
 
   # --------------------------------- Machine Config ----------------------------------
   proxy_conf = "proxym300.conf"
-  mysql_password = "m300mysql"
+  mysql_password = "m300mysql-Yannick"
 
   # Box OS Setting
   config.vm.box = "ubuntu/xenial64"
@@ -103,12 +103,11 @@ Vagrant.configure("2") do |config|
   sudo sed -i -e's/dc=example,dc=com/dc=nodomain/' /etc/phpldapadmin/config.php
 
 
-  # ------------------------------ Deactivate HTTP CONFIG -------------------------------
-  # Activate Default Config
+  # ------------------------------ Activate HTTPS CONFIG -------------------------------
+  sudo ufw allow from any to any port 443
   sudo a2ensite default-ssl.conf
-
-  # Activate SSL Modul in Apache2
   sudo a2enmod ssl
+  sudo a2dissite 000-default.conf
   
   # --------------------------------- Restart the Service -------------------------------
   # Restart the Service
