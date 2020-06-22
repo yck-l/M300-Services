@@ -31,7 +31,6 @@ Vagrant.configure("2") do |config|
 
   # --------------------------------- Firewall Config ----------------------------------
   # Install the service, firewall and proxy
-  sudo apt-get install apache2 -y
   sudo apt-get install ufw -y
 
   ## Firewall Rules, Settigs
@@ -41,6 +40,8 @@ Vagrant.configure("2") do |config|
   sudo ufw allow from any to any port 443
   sudo ufw enable
 
+  # -------------------------------- Install Webserver ---------------------------------
+  sudo apt-get install apache2 -y
 
   # ---------------------------------- Proxy Config ------------------------------------
   # Install the Modules
